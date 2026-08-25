@@ -2,6 +2,15 @@
 
 NPS explores what happens when simple AI agents can persist, interact, inherit information, and alter one another's environment over time.
 
+## At a Glance
+
+**Language:** Python  
+**Focus:** Multi-Agent Simulation, Agentic AI, Emergent Behavior, AI Evaluation  
+**Current Version:** v0.1  
+**Status:** Active Development
+
+NPS is currently establishing its deterministic experimental substrate before adding persistent memory, agent-to-agent interaction, and later LLM-driven cognition.
+
 ## v0.1 Objective
 
 Create a closed local environment with three simple agents, persistent memory, and a shared space. Log every interaction and observe whether any behavior emerges that was not explicitly scripted.
