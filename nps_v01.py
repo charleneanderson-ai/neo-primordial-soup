@@ -34,8 +34,13 @@ for agent in agents:
     print(agent.describe())
 
 
-for turn in range(1, 11):
+for turn in range(0, 10):
     print(f"\n--- Turn {turn} ---")
 
     for agent in agents:
+        if agent.position[0] < 9:
+            agent.position = (
+                agent.position[0] + 1,
+                agent.position[1]
+            )
         print(agent.describe())

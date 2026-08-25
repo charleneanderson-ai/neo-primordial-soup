@@ -15,7 +15,7 @@ Agent state currently consists of:
 - Agent_2: position=(5, 5)
 - Agent_3: position=(8, 2)
 
-Memory, age, and energy state have not yet been implemented. No movement or interaction rules are currently active. 
+Memory, age, and energy state are present in the agent state, but their update behaviors have not yet been implemented. No movement or interaction rules are currently active. 
 
 Output is observed through console logging during each turn, allowing the state and behavior of each agent to be inspected throughout the simulation. Because no behavior rules are currently active, each turn reports the same agent state.
 
