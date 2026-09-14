@@ -34,7 +34,7 @@ for agent in agents:
     print(agent.describe())
 
 
-for turn in range(0, 10):
+for turn in range(1, 11):
     print(f"\n--- Turn {turn} ---")
 
     for agent in agents:
