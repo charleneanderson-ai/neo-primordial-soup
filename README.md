@@ -7,9 +7,9 @@ NPS explores what happens when simple AI agents can persist, interact, inherit i
 **Language:** Python  
 **Focus:** Multi-Agent Simulation, Agentic AI, Emergent Behavior, AI Evaluation  
 **Current Version:** v0.1  
-**Status:** Active Development
+**Status:** Active Development - Experimental Substrate / Roadmap Expansion
 
-NPS is currently establishing its deterministic experimental substrate before adding persistent memory, agent-to-agent interaction, and later LLM-driven cognition.
+NPS is currently establishing a deterministic experimental substrate before introducing persistent memory, environmental traces, reward structures, inheritance, and later LLM-driven cognition.
 
 ## v0.1 Objective
 
@@ -21,13 +21,17 @@ v0.1 deliberately uses deterministic Python agents rather than language models. 
 
 ## Research Question
 
-What happens when simple autonomous agents persist, interact, retain information, and alter a shared environment over time?
+What happens if we create an environment in which ideas can persist, collide, recombine, contradict one another, accumulate history, and influence what happens next?
 
 ## Current State
 
-Neo-Primordial Soup is in early v0.1 development. The current build establishes the basic simulation structure, including multiple agents, agent identity and position, a shared coordinate space, and turn-based execution.
+Neo-Primordial Soup is in early v0.1 development, establishing a controlled experiment substrate for studying how simple agents accumulate history and influence what becomes possible next.
 
-The project is being developed incrementally so that each new capability can be understood, tested, and observed before additional complexity is introduced.
+The current build includes multiple agents, persistent identity and position, a shared Cartesion environment, turn-based execution, and deterministic movement rules.
+
+These early experiments are intentionally simple. Their purpose is to establish a reproducible baseline before introducing more consequential mechanisms such as persistent memory, environmental traces, reward structures, and inheritance or cultural transmission between agent generations.
+
+Each capability is added incrementally so its effects can be observed, tested, and separated from later layers of complexity.
 
 ## Current Capabilities
 
@@ -40,12 +44,14 @@ The project is being developed incrementally so that each new capability can be 
 
 ## What I'm Investigating
 
-- How increasingly complex behavior can arise from simple agent rules
-- How persistence and memory affect behavior over time
-- How agents influence one another through a shared environment
-- How environmental changes alter subsequent agent behavior
-- How unexpected behavior can be distinguished from behavior implied by the underlying rules
-- How multi-agent behavior can be logged and evaluated reproducibly
+- How persistent memory changes agent behavior across time
+- How agents can influence one another indirectly by leaving traces in a shared environment
+- How simple reward structures create selection pressure and whether they produce unexpected strategies
+- How information, tendencies, or environmental modifications can persist across agent generations
+- How local interactions accumulate into larger behavioral patterns
+- How apparently emergent behavior can be distinguished from behavior already implied by rules, incentives, or system structure
+- How the history of a system changes what becomes possible next
+- How multi-agent behavior can be logged, compared, and evaluated reproducibly
 
 ## Development Approach
 
@@ -55,26 +61,45 @@ The project intentionally grows in small increments rather than beginning with a
 
 ## Roadmap
 
-### v0.1 — Experimental Substrate
-- Establish multiple agents
-- Create a shared environment
-- Implement turn-based behavior
-- Add persistent state
-- Log agent activity
+### v0.1 - Experimental Substrate
+- Establish multiple persistent agents
+- Create a shared Cartesian environment
+- Implement turn-based execution
+- Introduce deterministic movement and boundary constraints
+- Track agent state across turns
+- Log behavior reproducibly
 
-### Next
-- Persistent agent memory
-- Agent-to-agent interaction
-- Environmental modification
-- Structured experiment logging
-- Behavioral metrics and evaluation
+### v0.2 - Persistent Memory
+- Give agents memory that survives individual turns
+- Allow past experience to influence later decisions
+- Distinguish internal memory from ordinary state variables
+- Test how memory changes behavior under otherwise identical conditions
 
-### Later
-- Introduce LLM-driven cognition
-- Compare deterministic and LLM-driven agent behavior
-- Explore increasingly autonomous agent decision-making
-- Develop reproducible evaluation methods for emergent behavior
+### v0.3 - Environmental Traces
+- Allow agents to modify the shared environment
+- Introduce indirect communication through persistent traces
+- Observe whether agents respond to changes created by other agents
+- Test whether environmental history alters later behavior
+
+### v0.4 - Reward and Selection Pressure
+- Introduce simple reward structures
+- Observe whether agents discover strategies not explicitly prescribed
+- Test for reward hacking, unintended optimization, and behavioral drift
+- Compare expected behavior with observed adaptation
+
+### v0.5 - Inheritance and Cultural Transmission
+- Allow selected information or tendencies to persist across agent generations
+- Compare inherited information with individually acquired memory
+- Explore whether useful, neutral, or harmful patterns propagate over time
+- Observe whether population-level behavior develops cumulative history
+
+### Later - LLM-Driven Cognition
+- Introduce language-model-driven agents
+- Compare deterministic and LLM-driven behavior
+- Explore richer communication, planning, and decision-making
+- Develop reproducible methods for evaluating emergent behavior
+- Study how increasingly capable agents interact with an already persistent environment
 
 ## Status
 
-Active development — August 2026 
+Active development — September 2026 
