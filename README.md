@@ -1,6 +1,8 @@
 # Neo-Primordial Soup (NPS)
 
-NPS explores what happens when simple AI agents can persist, interact, inherit information, and alter one another's environment over time.
+Exploring what happens when simple AI agents can persist, interact, inherit information, and alter one another's environment over time.
+
+![Neo-Primordial Soup](assets/neo-primordial-soup-banner.png)
 
 ## At a Glance
 
